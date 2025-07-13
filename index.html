@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🦋 Butterfly Love 🦋</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background">
+        <div class="stars"></div>
+        <div class="clouds"></div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="title">🦋 My Butterfly 🦋</h1>
+            <button class="fly-button" onclick="triggerButterflies()">✨Romty✨</button>
+        </header>
+
+        <!-- Main Message -->
+        <main class="main-content">
+            <div class="message-container">
+                <div class="love-message">
+                    <p class="message-line" data-text="بعد أشهر معدودة سنتزوج">بعد أشهر معدودة سنتزوج</p>
+                    <p class="message-line" data-text="وستنبت الأرض زهور">وستنبت الأرض زهور</p>
+                    <p class="message-line" data-text="تطير عليها فراشة مثلك">تطير عليها فراشة مثلك</p>
+                    <p class="message-line" data-text="وسيحمل رحمك بأجمل فتاة فى الدنيا">وسيحمل رحمك بأجمل فتاة فى الدنيا</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Floating Hearts -->
+        <div class="hearts-container">
+            <div class="heart">❤️</div>
+            <div class="heart">💖</div>
+            <div class="heart">💕</div>
+            <div class="heart">💗</div>
+            <div class="heart">💓</div>
+            <div class="heart">💝</div>
+            <div class="heart">💘</div>
+            <div class="heart">💞</div>
+        </div>
+
+        <!-- Butterfly Container -->
+        <div class="butterflies-container" id="butterfliesContainer"></div>
+
+        <!-- Audio Player -->
+        <div class="audio-player">
+            <button class="music-toggle" onclick="toggleMusic()">🎵</button>
+            <audio id="backgroundMusic" loop>
+                <source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" type="audio/wav">
+            </audio>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
